@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100hw;
+    height: 100vh;
+    background-image: url(images/jamie-fenn-PEVG_cqrIVo-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    font-weight: bolder;
+}
+.countdown-conatiner{
+    display: flex;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+
+.countdown-conatiner span{
+    font-size: 2rem;
+    margin-left: 40px;
+}
